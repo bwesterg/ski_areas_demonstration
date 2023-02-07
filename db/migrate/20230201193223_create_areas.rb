@@ -4,8 +4,6 @@ class CreateAreas < ActiveRecord::Migration[7.0]
       t.string :name
       t.string :state
       t.integer :vertical
-
-      t.timestamps
     end
   end
 end

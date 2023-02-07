@@ -10,13 +10,16 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2023_02_01_193223) do
+ActiveRecord::Schema[7.0].define(version: 2023_02_07_184351) do
   create_table "areas", force: :cascade do |t|
     t.string "name"
     t.string "state"
     t.integer "vertical"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.boolean "current"
+    t.boolean "epic"
+    t.boolean "ikon"
   end
 
 end
