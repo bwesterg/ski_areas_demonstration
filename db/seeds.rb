@@ -6,6 +6,18 @@
 #   movies = Movie.create([{ name: "Star Wars" }, { name: "Lord of the Rings" }])
 #   Character.create(name: "Luke", movie: movies.first)
 
-Area.create(name: "Vail", state: "Colorado", vertical: 3500)
-Area.create(name: "Breckenridge", state: "Colorado", vertical: 4000)
-Area.create(name: "Jackson's Hole", state: "Wyoming", vertical: 5000)
+# Area.create(name: "Vail", state: "Colorado", vertical: 3500)
+# Area.create(name: "Breckenridge", state: "Colorado", vertical: 4000)
+# Area.create(name: "Jackson's Hole", state: "Wyoming", vertical: 5000)
+
+# Area.create(name: "Vail", state: "Colorado", vertical: 3500, current: true)
+# Area.create(name: "Breckenridge", state: "Colorado", vertical: 4000, current: true)
+# Area.create(name: "Jackson's Hole", state: "Wyoming", vertical: 5000, current: true)
+
+# Area.create(name: "Vail", state: "Colorado", vertical: 3500, current: true, epic: true)
+# Area.create(name: "Breckenridge", state: "Colorado", vertical: 4000, current: true, epic: true)
+# Area.create(name: "Jackson's Hole", state: "Wyoming", vertical: 5000, current: true, epic: false)
+
+Area.create(name: "Vail", state: "Colorado", vertical: 3500, current: true, epic: true, ikon: false)
+Area.create(name: "Breckenridge", state: "Colorado", vertical: 4000, current: true, epic: true, ikon: false)
+Area.create(name: "Jackson's Hole", state: "Wyoming", vertical: 5000, current: true, epic: false, ikon: true)
